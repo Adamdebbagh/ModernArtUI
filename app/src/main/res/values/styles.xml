@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!-- Base application theme. -->
@@ -5,4 +6,29 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="linearlayout" parent="AppTheme">
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+    <!-- TextView Style. -->
+    <style name="square">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minHeight">120dp</item>
+        <item name="android:minWidth">120dp</item>
+    </style>
+    <!-- SeekBar Style. -->
+    <style name="seekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:progress">20</item>
+        <item name="android:max">255</item>
+    </style>
 </resources>

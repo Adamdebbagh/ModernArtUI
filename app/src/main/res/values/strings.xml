@@ -3,5 +3,10 @@
 
     <string name="app_name">Modern Art UI</string>
     <string name="more_information">More Information</string>
+    <string name="title">Inspired by the work ofSherrie Levine (American, born 1947). </string>
+    <string name="message">Click below to Learn more!</string>
+    <string name="browse">Visit MoMa</string>
+    <string name="cancel">Not Now</string>
+    <string name="title_activity_mo_ma_page">MoMa</string>
 
 </resources>
